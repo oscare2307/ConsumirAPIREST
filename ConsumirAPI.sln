@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumirAPIREST", "ConsumirAPIREST\ConsumirAPIREST.csproj", "{8D5411EB-803F-496D-ACCC-9FF34AC2C511}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D5411EB-803F-496D-ACCC-9FF34AC2C511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D5411EB-803F-496D-ACCC-9FF34AC2C511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D5411EB-803F-496D-ACCC-9FF34AC2C511}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8D5411EB-803F-496D-ACCC-9FF34AC2C511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D5411EB-803F-496D-ACCC-9FF34AC2C511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D5411EB-803F-496D-ACCC-9FF34AC2C511}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0117273-8BF8-4B92-81E5-F7FFF3D23531}
+	EndGlobalSection
+EndGlobal

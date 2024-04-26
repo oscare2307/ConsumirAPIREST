@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ConsumirAPIREST.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label Text="¡Welcome!" HorizontalOptions="Center" FontSize="Small"></Label>
+            
+            <Label Text="Product ID" VerticalOptions="Center"></Label>
+            <Entry x:Name="ProductoIdLabel" IsEnabled="True" VerticalOptions="Center"></Entry>
+            
+            <Label Text="Nombre Del Producto" VerticalOptions="Center"></Label>
+            <Entry x:Name="ProductoName"  VerticalOptions="Center"></Entry>
+
+            <Label Text="Precio Del Producto" VerticalOptions="Center"></Label>
+            <Entry x:Name="ProductoPrice"  VerticalOptions="Center"></Entry>
+
+            <Label Text="Categoria" VerticalOptions="Center"></Label>
+            <Entry x:Name="CategoriaId"  VerticalOptions="Center"></Entry>
+
+            <Button Text="Ingresar" Clicked="Button_Clicked"></Button>    
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
